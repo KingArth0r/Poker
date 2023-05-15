@@ -32,6 +32,18 @@ public class Card implements Comparable<Card> {
   }
 
   /**
+   * Gets this card's value
+   * @return this card's value
+   */
+  public int getValue() {return value;}
+
+  /**
+   * Gets the suit of this card
+   * @return the suit of this card
+   */
+  public String getSuit() {return suit;}
+
+  /**
    * Represents this card with a string
    * @return a string representing this card "[name] of [suit]"
    */
